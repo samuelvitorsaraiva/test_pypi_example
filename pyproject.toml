@@ -17,6 +17,16 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = []
+
+# Dev tools go here
+[project.optional-dependencies]
+dev = [
+    "mypy",
+    "pre-commit",
+    "pytest",
+    "black",
+]
 
 [project.urls]
 Homepage = "https://github.com/samuelvitorsaraiva/test_pypi_example"
