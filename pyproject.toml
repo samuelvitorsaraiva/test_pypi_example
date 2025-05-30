@@ -34,7 +34,7 @@ Homepage = "https://github.com/samuelvitorsaraiva/test_pypi_example"
 
 [tool.setuptools]
 packages = ["test_pypi_example"]
-package-dir = {"" = "scr"}
+package-dir = {"" = "src"}
 
 [tool.mypy]
 ignore_missing_imports = true
