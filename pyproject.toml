@@ -21,6 +21,7 @@ dependencies = []
 
 # Dev tools go here
 [project.optional-dependencies]
+ci = ["test-pypi-example-samuelvitor[dev]"]
 dev = [
     "mypy",
     "pre-commit",
